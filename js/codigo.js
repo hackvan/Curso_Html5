@@ -28,4 +28,5 @@ function cambiarColor (datos) {
 	/*console.log(datos);*/
 	var col = datos.currentTarget.id;
 	$("#cochecito img").attr("src", "img/c" + col + ".jpg");
+	$("#colorCoche").html(col);
 }
